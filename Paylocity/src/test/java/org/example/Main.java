@@ -20,8 +20,8 @@ public class Main {
         driver = Browser.StartBrowser(driver,"https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login");
 
         loginPage = PageFactory.initElements(driver, LoginPage.class);
-        loginPage.setUsername("TestUser876"); // Set your own username
-        loginPage.setPassword("'}X6jClT!Q9c");// Set your own password
+        loginPage.setUsername(""); // Set your own username
+        loginPage.setPassword("");// Set your own password
         loginPage.clickLoginButton();
 
         mainPage = PageFactory.initElements(driver, MainPage.class);
